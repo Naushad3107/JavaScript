@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess The Number</title>
+  </head>
+  <body>
+    <nav href="/">
+      <a href="/" aria-current="page">Home</a>
+      <a target="_blank" href="https://www.linkedin.com/in/naushad-quadri/"
+        >My LinkedIn</a
+      >
+    </nav>
+
+    <div id="wrapper">
+      <h1>Number Guessing Game</h1>
+      <p>Try Guessing Between 1 To 100</p>
+      <p>Only 10 Attempots Allowed</p>
+    
+
+    <form class="form">
+      <label for="guessfield" id="guess">Guess a Number</label>
+      <input type="text" id="guessfield" class="guessfield" />
+      <input type="submit" id="subt" value="submit guess" class="guessfield" />
+    </form>
+
+    <div id="resultparas">
+        <p>Previous Guesses: <span class="guesses"></span></p>
+        <p>Remaining Guesses: <span class="lastResult">10</span></p>
+        <p class="LowOrHi"></p>
+    </div>
+    </div>
+  </body> 
+
+  <script src="script.js"></script>
+</html>
